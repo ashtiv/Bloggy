@@ -1,0 +1,345 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/ActionType.ts",
+      "sha1": "31ca7b343385c37dc8c2c4cc3fe8bb583b70a679"
+    },
+    {
+      "path": "src/components/DrawerLayout.tsx",
+      "sha1": "deb48c9b446b64da65319e9970ceb4de1d848d94"
+    },
+    {
+      "path": "src/components/GestureButtons.tsx",
+      "sha1": "1ea1b6fd0227adcf9658c464156a0603aa77d907"
+    },
+    {
+      "path": "src/components/GestureComponents.tsx",
+      "sha1": "f2bf5b6b0e9abad0dba217025d0e58798d7dbc90"
+    },
+    {
+      "path": "src/components/GestureComponents.web.tsx",
+      "sha1": "ad69abd17c84179e067c4c3575ab0a8b2bce4803"
+    },
+    {
+      "path": "src/components/GestureHandlerButton.tsx",
+      "sha1": "b308a2d765efec201eacd53e360d3db90c9faef1"
+    },
+    {
+      "path": "src/components/GestureHandlerButton.web.tsx",
+      "sha1": "f6aa3e5191604cebac55aee3f3d233272cf37ccc"
+    },
+    {
+      "path": "src/components/Swipeable.tsx",
+      "sha1": "8a61a9268a8621042cd97e1b5d4eb3e8aecb769a"
+    },
+    {
+      "path": "src/components/touchables/GenericTouchable.tsx",
+      "sha1": "2c45f7c5c13fdf87a53e3caa1d1d4c9b42a3d601"
+    },
+    {
+      "path": "src/components/touchables/index.ts",
+      "sha1": "6c067defaa622d8a17dc136ad6a43d1330d42666"
+    },
+    {
+      "path": "src/components/touchables/TouchableHighlight.tsx",
+      "sha1": "22ab24bea1d90c870e4ef3f865d5ab7d1552c6b0"
+    },
+    {
+      "path": "src/components/touchables/TouchableNativeFeedback.android.tsx",
+      "sha1": "246e2c99da68f5eb5343287920aec685770b4d46"
+    },
+    {
+      "path": "src/components/touchables/TouchableNativeFeedback.tsx",
+      "sha1": "e58e0f28ccbd7f829cd32123c21c259e4502b21e"
+    },
+    {
+      "path": "src/components/touchables/TouchableOpacity.tsx",
+      "sha1": "c0a4240f57464abb945ea559f6ecc17e5cfd384f"
+    },
+    {
+      "path": "src/components/touchables/TouchableWithoutFeedback.tsx",
+      "sha1": "24df888db59028d1fa7e48b4eb1592350e602476"
+    },
+    {
+      "path": "src/Directions.ts",
+      "sha1": "18e8e555bb5d08394c5b85e082b9eddccd20e64a"
+    },
+    {
+      "path": "src/fabric/RNGestureHandlerButtonNativeComponent.ts",
+      "sha1": "aee6921c12a2523e9997c7f97cd2400781f8cff9"
+    },
+    {
+      "path": "src/fabric/RNGestureHandlerRootViewNativeComponent.ts",
+      "sha1": "edfbb6a1eaf424c311f64f0fa8b620f6e8c1a6dc"
+    },
+    {
+      "path": "src/gestureHandlerRootHOC.tsx",
+      "sha1": "e3d0bd5a450e5aab96847e5c6c001ed1496bba5a"
+    },
+    {
+      "path": "src/GestureHandlerRootView.android.tsx",
+      "sha1": "846d953e8311bf1d2131549b507d0baf67d0906c"
+    },
+    {
+      "path": "src/GestureHandlerRootView.tsx",
+      "sha1": "d310d0b13c4776e85016d5c46cde44ea305aeeac"
+    },
+    {
+      "path": "src/GestureHandlerRootView.web.tsx",
+      "sha1": "b432ff583d0c16ad4a85259d81f13c6ceb82809a"
+    },
+    {
+      "path": "src/getShadowNodeFromRef.ts",
+      "sha1": "1e59e996e6b80b53d0fe98af26230bdc7a7d9750"
+    },
+    {
+      "path": "src/getShadowNodeFromRef.web.ts",
+      "sha1": "52cd89827e1fe0ef03e40f71867845ba06f2c353"
+    },
+    {
+      "path": "src/handlers/createHandler.tsx",
+      "sha1": "403e204646143dc66f3cb8357527c7ed45128776"
+    },
+    {
+      "path": "src/handlers/createNativeWrapper.tsx",
+      "sha1": "b0e50b751d5ed5afddd979a2e140800c5de8cdec"
+    },
+    {
+      "path": "src/handlers/FlingGestureHandler.ts",
+      "sha1": "9da84e7ea78a1ab07969890736b00d88f96433a5"
+    },
+    {
+      "path": "src/handlers/ForceTouchGestureHandler.ts",
+      "sha1": "f58eecba345d9d38b0ed9bc02966c72cdf59a7a9"
+    },
+    {
+      "path": "src/handlers/gestureHandlerCommon.ts",
+      "sha1": "112f19b0ff6d50173e7a8b10253b5357b09d7662"
+    },
+    {
+      "path": "src/handlers/gestureHandlerTypesCompat.ts",
+      "sha1": "8ab51f9586f4ca612a2e39b83809ad7be2e00c08"
+    },
+    {
+      "path": "src/handlers/gestures/eventReceiver.ts",
+      "sha1": "1393ebfc7119fcdfcaaf7a381072196a8008cf7a"
+    },
+    {
+      "path": "src/handlers/gestures/flingGesture.ts",
+      "sha1": "26976c4fcc0ea1c4c954ea5a35939ad9d7441f07"
+    },
+    {
+      "path": "src/handlers/gestures/forceTouchGesture.ts",
+      "sha1": "7dfae8da46a0d8488d224ec35b7991a6fd80836f"
+    },
+    {
+      "path": "src/handlers/gestures/gesture.ts",
+      "sha1": "88d0e5a653166d28d7ca954510a6b62880fd6192"
+    },
+    {
+      "path": "src/handlers/gestures/gestureComposition.ts",
+      "sha1": "ed829a8e837444b64dd1e059be16eeb980c78fec"
+    },
+    {
+      "path": "src/handlers/gestures/GestureDetector.tsx",
+      "sha1": "bc85cf523342ec5d3c0ee8ad6485c4c7d10cceb4"
+    },
+    {
+      "path": "src/handlers/gestures/gestureObjects.ts",
+      "sha1": "34d16ba1031e523b9bc2c0f6a8cb219532d69a99"
+    },
+    {
+      "path": "src/handlers/gestures/gestureStateManager.ts",
+      "sha1": "7e445decf60451a98daf7d30db6036275195e682"
+    },
+    {
+      "path": "src/handlers/gestures/longPressGesture.ts",
+      "sha1": "fce2180662cce35903a4ca9728376b845b5763d4"
+    },
+    {
+      "path": "src/handlers/gestures/manualGesture.ts",
+      "sha1": "b0ad447d08d47762bfd0c54ac4b44fae97e609ed"
+    },
+    {
+      "path": "src/handlers/gestures/nativeGesture.ts",
+      "sha1": "2668d8181e5fb8b94f63cc89931f4d5b6184076e"
+    },
+    {
+      "path": "src/handlers/gestures/panGesture.ts",
+      "sha1": "3cc64f7896a3c1d8f864fad226eb2bb7d513d3f3"
+    },
+    {
+      "path": "src/handlers/gestures/pinchGesture.ts",
+      "sha1": "5598159e0f63362b015ca1c233abe731eb6a5788"
+    },
+    {
+      "path": "src/handlers/gestures/reanimatedWrapper.ts",
+      "sha1": "d5def7c3cdc528c4b5482727fd68771e652df2e5"
+    },
+    {
+      "path": "src/handlers/gestures/rotationGesture.ts",
+      "sha1": "2feed8e67bc6c76c8fe19badb8a23443fc251a72"
+    },
+    {
+      "path": "src/handlers/gestures/tapGesture.ts",
+      "sha1": "5b07bbd4fb5c697c220fbfea3a6183e491ce8932"
+    },
+    {
+      "path": "src/handlers/handlersRegistry.ts",
+      "sha1": "c852bf10ad905413a2f1c30bd5097678ea14bc2e"
+    },
+    {
+      "path": "src/handlers/LongPressGestureHandler.ts",
+      "sha1": "f2e1eee973ec1e492a94e9cd20f3159732a48f1d"
+    },
+    {
+      "path": "src/handlers/NativeViewGestureHandler.ts",
+      "sha1": "41ee0a981aaf8f60a6761bc82fc578db4f0e7f03"
+    },
+    {
+      "path": "src/handlers/PanGestureHandler.ts",
+      "sha1": "9f0233c0a179381c247bc552a69588230a6d72be"
+    },
+    {
+      "path": "src/handlers/PinchGestureHandler.ts",
+      "sha1": "0198f1d05b96c2e5bef27b92f4437c518c2b3691"
+    },
+    {
+      "path": "src/handlers/PressabilityDebugView.tsx",
+      "sha1": "9af91a4d5f475f0e1578db6ac906ebef45d91495"
+    },
+    {
+      "path": "src/handlers/PressabilityDebugView.web.tsx",
+      "sha1": "dc96ea6c8bb3e14abfaa7880011726a2ab8fec3a"
+    },
+    {
+      "path": "src/handlers/RotationGestureHandler.ts",
+      "sha1": "8abdb8d9905450a2a8821681213468679cd9836c"
+    },
+    {
+      "path": "src/handlers/TapGestureHandler.ts",
+      "sha1": "8e64bebed948f4c12a52ed3318c409cde66bd49a"
+    },
+    {
+      "path": "src/index.ts",
+      "sha1": "98da0d564c428bd64893a35a24d6673cfc4b7eb1"
+    },
+    {
+      "path": "src/init.ts",
+      "sha1": "6b97d6980a838868e27095e256f7f2a7747ef143"
+    },
+    {
+      "path": "src/jestUtils/index.ts",
+      "sha1": "f088778ea4d215bfd021f24d43a008386b19355a"
+    },
+    {
+      "path": "src/jestUtils/jestUtils.ts",
+      "sha1": "f59d99be110b33aa25f9ab67813675f7f8a26d61"
+    },
+    {
+      "path": "src/mocks.ts",
+      "sha1": "45ef6c1c86230abbdc7294ec405c5cc9bd22f228"
+    },
+    {
+      "path": "src/PlatformConstants.ts",
+      "sha1": "f26e6265c91b97091860aea55f53a67399712ce4"
+    },
+    {
+      "path": "src/PlatformConstants.web.ts",
+      "sha1": "e0e12d5aa8c08f1a8ea8e1d8ae837c07038b26d9"
+    },
+    {
+      "path": "src/RNGestureHandlerModule.macos.ts",
+      "sha1": "5c43056116c6a1d95f215f55ae0baab5c9b62061"
+    },
+    {
+      "path": "src/RNGestureHandlerModule.ts",
+      "sha1": "c66d6e41fa218acf5b916194ff85e72299131dd7"
+    },
+    {
+      "path": "src/RNGestureHandlerModule.web.ts",
+      "sha1": "b62ecde987fa7c6851fbf6cfe9a939b08c070439"
+    },
+    {
+      "path": "src/State.ts",
+      "sha1": "b57422d35350fcf8955a85e114c4f192e8a3dbfb"
+    },
+    {
+      "path": "src/TouchEventType.ts",
+      "sha1": "505958f13513a744a8c57622011d729bb89c6bdc"
+    },
+    {
+      "path": "src/typeUtils.ts",
+      "sha1": "3349d3483aab15a4d2faf3f31fd3a96f1a7e2d88"
+    },
+    {
+      "path": "src/utils.ts",
+      "sha1": "7b8f2384968b8d007fdee45ff50595d9672d07f9"
+    },
+    {
+      "path": "src/web/constants.ts",
+      "sha1": "ed5d601011d4a2a4f26faf4bf57736565f0ba398"
+    },
+    {
+      "path": "src/web/DiscreteGestureHandler.ts",
+      "sha1": "2d3deff2a5a159116e4006172cf7e985dac0e82f"
+    },
+    {
+      "path": "src/web/DraggingGestureHandler.ts",
+      "sha1": "1138f6d164e10149c064c7036c153848d40d1d22"
+    },
+    {
+      "path": "src/web/Errors.ts",
+      "sha1": "7cceaaa57049ad1f9001478c56047e63581dbfa1"
+    },
+    {
+      "path": "src/web/FlingGestureHandler.ts",
+      "sha1": "0e36ae2b93d3754ae6547eacf8f15dd65e3b5530"
+    },
+    {
+      "path": "src/web/GestureHandler.ts",
+      "sha1": "26228e7c03d4f919ff8caceefb0e715f87545e44"
+    },
+    {
+      "path": "src/web/IndiscreteGestureHandler.ts",
+      "sha1": "67b3cb7d2204ed5ac663bc926eeaf5db633f4951"
+    },
+    {
+      "path": "src/web/LongPressGestureHandler.ts",
+      "sha1": "ecbab6b0746d900ab3cbc97ebac5751384907d95"
+    },
+    {
+      "path": "src/web/NativeViewGestureHandler.ts",
+      "sha1": "e07f12c6b4a094889e9a3affc5019b47745cb4d0"
+    },
+    {
+      "path": "src/web/NodeManager.ts",
+      "sha1": "cd3d42f724149a2051a371ad4b8c1048897c4bdc"
+    },
+    {
+      "path": "src/web/PanGestureHandler.ts",
+      "sha1": "1f634188afb5fd1c9ff15d0f0deb893f4fb783a5"
+    },
+    {
+      "path": "src/web/PinchGestureHandler.ts",
+      "sha1": "86bc7b9b41e08f7f7076b1beaa127c178a74053c"
+    },
+    {
+      "path": "src/web/PressGestureHandler.ts",
+      "sha1": "c364a642bbb473aeeb462cf5fc956f11a210386c"
+    },
+    {
+      "path": "src/web/RotationGestureHandler.ts",
+      "sha1": "8bcd70453614e33995079add1bed6e7fbdd4e693"
+    },
+    {
+      "path": "src/web/TapGestureHandler.ts",
+      "sha1": "9fcf757da9ce7a587cf7a113706c0c1f5fef4d1c"
+    },
+    {
+      "path": "src/web/utils.ts",
+      "sha1": "e6df9fa2be600d9e2c4577a42e69e11c4a9159c2"
+    }
+  ]
+}

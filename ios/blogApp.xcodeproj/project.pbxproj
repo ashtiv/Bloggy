@@ -1,0 +1,1049 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* blogAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* blogAppTests.m */; };
+		0C80B921A6F3F58F76C31292 /* libPods-blogApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-blogApp.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		7699B88040F8A987B510C191 /* libPods-blogApp-blogAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-blogApp-blogAppTests.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		9054BE240E184E66BE4F280F /* ActionType.ts in Resources */ = {isa = PBXBuildFile; fileRef = D5FFFB1A08544DEA8C381F88 /* ActionType.ts */; };
+		E2C74F5A2255497DBCBB02F0 /* DrawerLayout.tsx in Resources */ = {isa = PBXBuildFile; fileRef = D6EDA63B084A4A4995412830 /* DrawerLayout.tsx */; };
+		49B40C11318C41BCB5A0E0DC /* GestureButtons.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 77ACB8C5A47A4F0C9D422C22 /* GestureButtons.tsx */; };
+		DF767CBE52BF440AB9EDEB5D /* GestureComponents.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 1D7B339A32CF44D893CEEEDA /* GestureComponents.tsx */; };
+		AFEF91A46D014C78AC291191 /* GestureComponents.web.tsx in Resources */ = {isa = PBXBuildFile; fileRef = C21032845CFA43BBBE017605 /* GestureComponents.web.tsx */; };
+		424BBAB8C97F4A9DBFE64B3E /* GestureHandlerButton.tsx in Resources */ = {isa = PBXBuildFile; fileRef = E572B5DB193B4D4D98241ECC /* GestureHandlerButton.tsx */; };
+		BA72AEAAB4834E758AC10634 /* GestureHandlerButton.web.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 1730135260804795937DFC08 /* GestureHandlerButton.web.tsx */; };
+		4D019CDA95AC45FDAF46AC5C /* Swipeable.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 95C47AFE954E4A0AB7703A64 /* Swipeable.tsx */; };
+		22E11B9188AF4CE3B42D262D /* GenericTouchable.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 1C42792D1CD84415BA59D9CC /* GenericTouchable.tsx */; };
+		1A76DDD7BB8145D9B87189DD /* index.ts in Resources */ = {isa = PBXBuildFile; fileRef = AA8806B74FE340FAA4D04A55 /* index.ts */; };
+		2B5096A3E0FB40C2AF047747 /* TouchableHighlight.tsx in Resources */ = {isa = PBXBuildFile; fileRef = DEB7EDCB9C824BBDBC906304 /* TouchableHighlight.tsx */; };
+		D58321F13D1443619C961ECF /* TouchableNativeFeedback.android.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 966F96A3B03E4A4C8B6FCF72 /* TouchableNativeFeedback.android.tsx */; };
+		47B9AAB9713F4CE2ACB3B448 /* TouchableNativeFeedback.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 46A6EF12208249FC960A141C /* TouchableNativeFeedback.tsx */; };
+		1E6D694447344D5C942EF36D /* TouchableOpacity.tsx in Resources */ = {isa = PBXBuildFile; fileRef = EAF30CEE19074AEA91EE070D /* TouchableOpacity.tsx */; };
+		C2706CD52E7A48ACB4FCB7D0 /* TouchableWithoutFeedback.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 02B276B52D94485C882A6C55 /* TouchableWithoutFeedback.tsx */; };
+		23CDA508C6914645B7CFA8CB /* Directions.ts in Resources */ = {isa = PBXBuildFile; fileRef = 7A51693436974756AC23C510 /* Directions.ts */; };
+		52F6010F41A44AF88134381A /* RNGestureHandlerButtonNativeComponent.ts in Resources */ = {isa = PBXBuildFile; fileRef = C90912DA0592414BA6D49BC9 /* RNGestureHandlerButtonNativeComponent.ts */; };
+		5F6F1E52FFDE4FA08E140373 /* RNGestureHandlerRootViewNativeComponent.ts in Resources */ = {isa = PBXBuildFile; fileRef = C5DEF3FAD9584C3C97B18646 /* RNGestureHandlerRootViewNativeComponent.ts */; };
+		A8392D6F65E348699F389034 /* gestureHandlerRootHOC.tsx in Resources */ = {isa = PBXBuildFile; fileRef = D5504EBCEA0942BFAA818CED /* gestureHandlerRootHOC.tsx */; };
+		43EAADAAE5584303BBFADC7A /* GestureHandlerRootView.android.tsx in Resources */ = {isa = PBXBuildFile; fileRef = C68931B1EE664156B225A951 /* GestureHandlerRootView.android.tsx */; };
+		B0432959767647119DF89E1E /* GestureHandlerRootView.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 6253F3C72DE241A1A5198125 /* GestureHandlerRootView.tsx */; };
+		9F210B9C79334D94A734E63E /* GestureHandlerRootView.web.tsx in Resources */ = {isa = PBXBuildFile; fileRef = A3339C75D24E4B95BBFD911A /* GestureHandlerRootView.web.tsx */; };
+		FA3ED14D530A4447BCA5CF90 /* getShadowNodeFromRef.ts in Resources */ = {isa = PBXBuildFile; fileRef = B8528A286BE54C97812E1D64 /* getShadowNodeFromRef.ts */; };
+		FA2CEE9BB02447F8BB85AF7C /* getShadowNodeFromRef.web.ts in Resources */ = {isa = PBXBuildFile; fileRef = 7A96B9810B6545668D6C7FA7 /* getShadowNodeFromRef.web.ts */; };
+		D2D7EB796E0D4856ACA0B373 /* createHandler.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 3EF5B4819430412590465AB6 /* createHandler.tsx */; };
+		953C8D719831426A894E5313 /* createNativeWrapper.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 13076D9DCE8147C1AE6C1C06 /* createNativeWrapper.tsx */; };
+		22897F5F3CDC4CED951F74D0 /* FlingGestureHandler.ts in Resources */ = {isa = PBXBuildFile; fileRef = DAC270410CF4478198FC0E92 /* FlingGestureHandler.ts */; };
+		0471473BBE0C4746A6DE8A97 /* ForceTouchGestureHandler.ts in Resources */ = {isa = PBXBuildFile; fileRef = 962DA19ADA3C4EA6A276A419 /* ForceTouchGestureHandler.ts */; };
+		27CA5892EA184005967644A9 /* gestureHandlerCommon.ts in Resources */ = {isa = PBXBuildFile; fileRef = 0ED861758B774304BC0786B6 /* gestureHandlerCommon.ts */; };
+		2D56D6490DDD482BB62024B2 /* gestureHandlerTypesCompat.ts in Resources */ = {isa = PBXBuildFile; fileRef = 109801CE95DF4861B2A2C8CA /* gestureHandlerTypesCompat.ts */; };
+		32E91D71A26E46BD95A7E1B6 /* eventReceiver.ts in Resources */ = {isa = PBXBuildFile; fileRef = 2F4DCBFEE9C3450694E0535A /* eventReceiver.ts */; };
+		A75D606758F74FA0A89C6620 /* flingGesture.ts in Resources */ = {isa = PBXBuildFile; fileRef = A1B8CFBB3DD74F03A5ACF50F /* flingGesture.ts */; };
+		496411DB67884BDC852D41D2 /* forceTouchGesture.ts in Resources */ = {isa = PBXBuildFile; fileRef = 872CB321298A4B09A99A6073 /* forceTouchGesture.ts */; };
+		E5F3215EF1F64209B4774B7D /* gesture.ts in Resources */ = {isa = PBXBuildFile; fileRef = 5F69CBCA7D394848BAE9D7E4 /* gesture.ts */; };
+		7F65C71BEB7048A69F91785F /* gestureComposition.ts in Resources */ = {isa = PBXBuildFile; fileRef = 3F2EA073BF1F49A286CFCF65 /* gestureComposition.ts */; };
+		45639E52F4064B32A5CAEB0C /* GestureDetector.tsx in Resources */ = {isa = PBXBuildFile; fileRef = A14A5C764FC645C1854C7604 /* GestureDetector.tsx */; };
+		9245A7FA1C8044E8B55743CD /* gestureObjects.ts in Resources */ = {isa = PBXBuildFile; fileRef = 5D4E57DF0C1B4ECCA7054A86 /* gestureObjects.ts */; };
+		5C7DA5D29F3F4C88AA9930C2 /* gestureStateManager.ts in Resources */ = {isa = PBXBuildFile; fileRef = 1A68CB70D5F1452AB9428B1A /* gestureStateManager.ts */; };
+		E6B0F77FFADA49B9A206B232 /* longPressGesture.ts in Resources */ = {isa = PBXBuildFile; fileRef = 3071D937A018464DA9F92A45 /* longPressGesture.ts */; };
+		BA0E10A447A34B4BAF59F2F1 /* manualGesture.ts in Resources */ = {isa = PBXBuildFile; fileRef = 169BE1F2D4564A2CB1E20DEC /* manualGesture.ts */; };
+		859E1A94864047129FE703B8 /* nativeGesture.ts in Resources */ = {isa = PBXBuildFile; fileRef = ACCC1FAA4D20457C90CC18BF /* nativeGesture.ts */; };
+		A4DF1C262D1249F3915E8900 /* panGesture.ts in Resources */ = {isa = PBXBuildFile; fileRef = 5F8A98915A3F434A8AC719AA /* panGesture.ts */; };
+		7B45FC414C74463F9DE5A5C3 /* pinchGesture.ts in Resources */ = {isa = PBXBuildFile; fileRef = 01846A7079ED430582D077CF /* pinchGesture.ts */; };
+		6AE0F54C6A994AEEA0A20A39 /* reanimatedWrapper.ts in Resources */ = {isa = PBXBuildFile; fileRef = 83EC5D6E0EDC4F02B7EA257F /* reanimatedWrapper.ts */; };
+		9187E1A49DE649E09A5C3A51 /* rotationGesture.ts in Resources */ = {isa = PBXBuildFile; fileRef = E4D57A2835B44480AF19CEBD /* rotationGesture.ts */; };
+		826AE74D984C4533B422D039 /* tapGesture.ts in Resources */ = {isa = PBXBuildFile; fileRef = D53A8E5DE09D40A38CCDD685 /* tapGesture.ts */; };
+		E8F9ED269502424EA6BD1C65 /* handlersRegistry.ts in Resources */ = {isa = PBXBuildFile; fileRef = D40030E32EA04C66BB711641 /* handlersRegistry.ts */; };
+		1ED521A0AADD442084963CFB /* LongPressGestureHandler.ts in Resources */ = {isa = PBXBuildFile; fileRef = 211305155EBF4166B359EC84 /* LongPressGestureHandler.ts */; };
+		DF5A90312E62442DB88F461C /* NativeViewGestureHandler.ts in Resources */ = {isa = PBXBuildFile; fileRef = D26CD86D69784CE5BC941DE2 /* NativeViewGestureHandler.ts */; };
+		F2439B2D7AF74E5EAC574DDB /* PanGestureHandler.ts in Resources */ = {isa = PBXBuildFile; fileRef = 2A7CD34FD044468C9E42A007 /* PanGestureHandler.ts */; };
+		C0025874CD514B219786E4C9 /* PinchGestureHandler.ts in Resources */ = {isa = PBXBuildFile; fileRef = C8955E00A7474DC4A0364C19 /* PinchGestureHandler.ts */; };
+		59AF175B7E2740239614E3F7 /* PressabilityDebugView.tsx in Resources */ = {isa = PBXBuildFile; fileRef = 86E50100E5FE4269AD1D10B5 /* PressabilityDebugView.tsx */; };
+		C8FAA1DDCA804335B688F962 /* PressabilityDebugView.web.tsx in Resources */ = {isa = PBXBuildFile; fileRef = F221CC031B7046E98BACD5F2 /* PressabilityDebugView.web.tsx */; };
+		2B63910FAB874B95ACEEBFF8 /* RotationGestureHandler.ts in Resources */ = {isa = PBXBuildFile; fileRef = 550D36CB4E4045E393B5C511 /* RotationGestureHandler.ts */; };
+		BBFEBF677ABC40C487798F78 /* TapGestureHandler.ts in Resources */ = {isa = PBXBuildFile; fileRef = 9D016C1EA07342F09B0E3748 /* TapGestureHandler.ts */; };
+		74D4C7C6ED424ECCBDC7B25C /* index.ts in Resources */ = {isa = PBXBuildFile; fileRef = D32C16BB20BB4E028F8BC59E /* index.ts */; };
+		BE4423A5659B424EB4004616 /* init.ts in Resources */ = {isa = PBXBuildFile; fileRef = 96F8A88803764960A4E45558 /* init.ts */; };
+		60A6A115C6AC46BD91AB0C18 /* index.ts in Resources */ = {isa = PBXBuildFile; fileRef = 3E7DC45A8E2C41DAA023564D /* index.ts */; };
+		B4F618401F7C431487A99913 /* jestUtils.ts in Resources */ = {isa = PBXBuildFile; fileRef = 948F6F5E4F974C3295739B9E /* jestUtils.ts */; };
+		D8BFE8F0F4A9440AA8FBAF15 /* mocks.ts in Resources */ = {isa = PBXBuildFile; fileRef = 54539E161836429F90C80997 /* mocks.ts */; };
+		DFDC98CB69554BDB8AA48B3D /* PlatformConstants.ts in Resources */ = {isa = PBXBuildFile; fileRef = E51CCC35473D40949940B414 /* PlatformConstants.ts */; };
+		A7D802C7C8C74BDC87A065D8 /* PlatformConstants.web.ts in Resources */ = {isa = PBXBuildFile; fileRef = 79B59EB194824612BA8B8C96 /* PlatformConstants.web.ts */; };
+		6B356E95A00D4FCEAB02CB5A /* RNGestureHandlerModule.macos.ts in Resources */ = {isa = PBXBuildFile; fileRef = 64EF8B388967434394796021 /* RNGestureHandlerModule.macos.ts */; };
+		CD03D05E56A2432D8723477E /* RNGestureHandlerModule.ts in Resources */ = {isa = PBXBuildFile; fileRef = 7CEFF335682A4BF691B649EB /* RNGestureHandlerModule.ts */; };
+		3524B05FD07A4F548F65269F /* RNGestureHandlerModule.web.ts in Resources */ = {isa = PBXBuildFile; fileRef = EE3642E01DD04A05BB084F5A /* RNGestureHandlerModule.web.ts */; };
+		C6D8D2B276114F939B1050B7 /* State.ts in Resources */ = {isa = PBXBuildFile; fileRef = 0F2F512244A84D1899976F25 /* State.ts */; };
+		273BBEB31F46423D927606B4 /* TouchEventType.ts in Resources */ = {isa = PBXBuildFile; fileRef = 2AAEC5AA27C94987B1CC6949 /* TouchEventType.ts */; };
+		D9F7C9E127454BFA912D1A3F /* typeUtils.ts in Resources */ = {isa = PBXBuildFile; fileRef = 017E3272B47A4FFCBF7D23CB /* typeUtils.ts */; };
+		81959899932C42A9A328EB6C /* utils.ts in Resources */ = {isa = PBXBuildFile; fileRef = 0A9425ABD63448D6BB5C899B /* utils.ts */; };
+		27AC26D4284F4339821BFC5A /* constants.ts in Resources */ = {isa = PBXBuildFile; fileRef = 7E523A83B9B64B3AB188EEAD /* constants.ts */; };
+		341F69D07F644EEEAC118332 /* DiscreteGestureHandler.ts in Resources */ = {isa = PBXBuildFile; fileRef = ECB95339D041407AA1195151 /* DiscreteGestureHandler.ts */; };
+		A6D082CC6B7942F5809D5F25 /* DraggingGestureHandler.ts in Resources */ = {isa = PBXBuildFile; fileRef = C919AFE8C0FF4D7FA41A1AA4 /* DraggingGestureHandler.ts */; };
+		F47CDF38B64640F4906F4B03 /* Errors.ts in Resources */ = {isa = PBXBuildFile; fileRef = 4B7CBA840A2241D0AD8F4A03 /* Errors.ts */; };
+		6B5FF1E8239540E892227CA5 /* FlingGestureHandler.ts in Resources */ = {isa = PBXBuildFile; fileRef = A9FDA3D3206A4E559C9C03D5 /* FlingGestureHandler.ts */; };
+		C9853316A66C4D1FBE291EE3 /* GestureHandler.ts in Resources */ = {isa = PBXBuildFile; fileRef = 90B34A3E0E6A42CE8FD39A50 /* GestureHandler.ts */; };
+		7E4F83B2B2A04C08B11B8EA2 /* IndiscreteGestureHandler.ts in Resources */ = {isa = PBXBuildFile; fileRef = 37338ADC2DEB45C28806CB2D /* IndiscreteGestureHandler.ts */; };
+		ADB158BE66AE49B290078B27 /* LongPressGestureHandler.ts in Resources */ = {isa = PBXBuildFile; fileRef = 2C37A0F2701947838C3386D7 /* LongPressGestureHandler.ts */; };
+		46EC5932D56441148B84EC97 /* NativeViewGestureHandler.ts in Resources */ = {isa = PBXBuildFile; fileRef = 903C0693E77F4FF29EEA52AE /* NativeViewGestureHandler.ts */; };
+		75BA12EA614D4A19B93877C0 /* NodeManager.ts in Resources */ = {isa = PBXBuildFile; fileRef = D747F9EC06814C158CCF3CA8 /* NodeManager.ts */; };
+		D7C38180726E4C07B6D76DC3 /* PanGestureHandler.ts in Resources */ = {isa = PBXBuildFile; fileRef = 24D89340B34740ACB762F48B /* PanGestureHandler.ts */; };
+		2544EF13E0B248A587A1E439 /* PinchGestureHandler.ts in Resources */ = {isa = PBXBuildFile; fileRef = 447EB132E3B04D4F84A145EB /* PinchGestureHandler.ts */; };
+		B72C948496ED4C3E87320508 /* PressGestureHandler.ts in Resources */ = {isa = PBXBuildFile; fileRef = D9F92726FFBF42E4B5F16F17 /* PressGestureHandler.ts */; };
+		B51E9D68E9DC47E69258CDC5 /* RotationGestureHandler.ts in Resources */ = {isa = PBXBuildFile; fileRef = 15F38E95C73640D2A66B7EC8 /* RotationGestureHandler.ts */; };
+		C46B8AD94E684E6B95D9ECA9 /* TapGestureHandler.ts in Resources */ = {isa = PBXBuildFile; fileRef = 5376B7668CDE482889A8EA88 /* TapGestureHandler.ts */; };
+		8EF7FFC86DE340359A577410 /* utils.ts in Resources */ = {isa = PBXBuildFile; fileRef = FE60C833A0564C67AC5C16B0 /* utils.ts */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = blogApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* blogAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = blogAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* blogAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = blogAppTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* blogApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blogApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = blogApp/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = blogApp/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = blogApp/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = blogApp/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = blogApp/main.m; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-blogApp-blogAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-blogApp-blogAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4392A12AC88292D35C810B /* Pods-blogApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-blogApp.debug.xcconfig"; path = "Target Support Files/Pods-blogApp/Pods-blogApp.debug.xcconfig"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-blogApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-blogApp.release.xcconfig"; path = "Target Support Files/Pods-blogApp/Pods-blogApp.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-blogApp-blogAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-blogApp-blogAppTests.debug.xcconfig"; path = "Target Support Files/Pods-blogApp-blogAppTests/Pods-blogApp-blogAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-blogApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-blogApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = blogApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-blogApp-blogAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-blogApp-blogAppTests.release.xcconfig"; path = "Target Support Files/Pods-blogApp-blogAppTests/Pods-blogApp-blogAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		D5FFFB1A08544DEA8C381F88 /* ActionType.ts */ = {isa = PBXFileReference; name = "ActionType.ts"; path = "../src/ActionType.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D6EDA63B084A4A4995412830 /* DrawerLayout.tsx */ = {isa = PBXFileReference; name = "DrawerLayout.tsx"; path = "../src/components/DrawerLayout.tsx"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		77ACB8C5A47A4F0C9D422C22 /* GestureButtons.tsx */ = {isa = PBXFileReference; name = "GestureButtons.tsx"; path = "../src/components/GestureButtons.tsx"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1D7B339A32CF44D893CEEEDA /* GestureComponents.tsx */ = {isa = PBXFileReference; name = "GestureComponents.tsx"; path = "../src/components/GestureComponents.tsx"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C21032845CFA43BBBE017605 /* GestureComponents.web.tsx */ = {isa = PBXFileReference; name = "GestureComponents.web.tsx"; path = "../src/components/GestureComponents.web.tsx"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E572B5DB193B4D4D98241ECC /* GestureHandlerButton.tsx */ = {isa = PBXFileReference; name = "GestureHandlerButton.tsx"; path = "../src/components/GestureHandlerButton.tsx"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1730135260804795937DFC08 /* GestureHandlerButton.web.tsx */ = {isa = PBXFileReference; name = "GestureHandlerButton.web.tsx"; path = "../src/components/GestureHandlerButton.web.tsx"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		95C47AFE954E4A0AB7703A64 /* Swipeable.tsx */ = {isa = PBXFileReference; name = "Swipeable.tsx"; path = "../src/components/Swipeable.tsx"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1C42792D1CD84415BA59D9CC /* GenericTouchable.tsx */ = {isa = PBXFileReference; name = "GenericTouchable.tsx"; path = "../src/components/touchables/GenericTouchable.tsx"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AA8806B74FE340FAA4D04A55 /* index.ts */ = {isa = PBXFileReference; name = "index.ts"; path = "../src/components/touchables/index.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DEB7EDCB9C824BBDBC906304 /* TouchableHighlight.tsx */ = {isa = PBXFileReference; name = "TouchableHighlight.tsx"; path = "../src/components/touchables/TouchableHighlight.tsx"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		966F96A3B03E4A4C8B6FCF72 /* TouchableNativeFeedback.android.tsx */ = {isa = PBXFileReference; name = "TouchableNativeFeedback.android.tsx"; path = "../src/components/touchables/TouchableNativeFeedback.android.tsx"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		46A6EF12208249FC960A141C /* TouchableNativeFeedback.tsx */ = {isa = PBXFileReference; name = "TouchableNativeFeedback.tsx"; path = "../src/components/touchables/TouchableNativeFeedback.tsx"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EAF30CEE19074AEA91EE070D /* TouchableOpacity.tsx */ = {isa = PBXFileReference; name = "TouchableOpacity.tsx"; path = "../src/components/touchables/TouchableOpacity.tsx"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		02B276B52D94485C882A6C55 /* TouchableWithoutFeedback.tsx */ = {isa = PBXFileReference; name = "TouchableWithoutFeedback.tsx"; path = "../src/components/touchables/TouchableWithoutFeedback.tsx"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7A51693436974756AC23C510 /* Directions.ts */ = {isa = PBXFileReference; name = "Directions.ts"; path = "../src/Directions.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C90912DA0592414BA6D49BC9 /* RNGestureHandlerButtonNativeComponent.ts */ = {isa = PBXFileReference; name = "RNGestureHandlerButtonNativeComponent.ts"; path = "../src/fabric/RNGestureHandlerButtonNativeComponent.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C5DEF3FAD9584C3C97B18646 /* RNGestureHandlerRootViewNativeComponent.ts */ = {isa = PBXFileReference; name = "RNGestureHandlerRootViewNativeComponent.ts"; path = "../src/fabric/RNGestureHandlerRootViewNativeComponent.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D5504EBCEA0942BFAA818CED /* gestureHandlerRootHOC.tsx */ = {isa = PBXFileReference; name = "gestureHandlerRootHOC.tsx"; path = "../src/gestureHandlerRootHOC.tsx"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C68931B1EE664156B225A951 /* GestureHandlerRootView.android.tsx */ = {isa = PBXFileReference; name = "GestureHandlerRootView.android.tsx"; path = "../src/GestureHandlerRootView.android.tsx"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6253F3C72DE241A1A5198125 /* GestureHandlerRootView.tsx */ = {isa = PBXFileReference; name = "GestureHandlerRootView.tsx"; path = "../src/GestureHandlerRootView.tsx"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A3339C75D24E4B95BBFD911A /* GestureHandlerRootView.web.tsx */ = {isa = PBXFileReference; name = "GestureHandlerRootView.web.tsx"; path = "../src/GestureHandlerRootView.web.tsx"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B8528A286BE54C97812E1D64 /* getShadowNodeFromRef.ts */ = {isa = PBXFileReference; name = "getShadowNodeFromRef.ts"; path = "../src/getShadowNodeFromRef.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7A96B9810B6545668D6C7FA7 /* getShadowNodeFromRef.web.ts */ = {isa = PBXFileReference; name = "getShadowNodeFromRef.web.ts"; path = "../src/getShadowNodeFromRef.web.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3EF5B4819430412590465AB6 /* createHandler.tsx */ = {isa = PBXFileReference; name = "createHandler.tsx"; path = "../src/handlers/createHandler.tsx"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		13076D9DCE8147C1AE6C1C06 /* createNativeWrapper.tsx */ = {isa = PBXFileReference; name = "createNativeWrapper.tsx"; path = "../src/handlers/createNativeWrapper.tsx"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DAC270410CF4478198FC0E92 /* FlingGestureHandler.ts */ = {isa = PBXFileReference; name = "FlingGestureHandler.ts"; path = "../src/handlers/FlingGestureHandler.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		962DA19ADA3C4EA6A276A419 /* ForceTouchGestureHandler.ts */ = {isa = PBXFileReference; name = "ForceTouchGestureHandler.ts"; path = "../src/handlers/ForceTouchGestureHandler.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0ED861758B774304BC0786B6 /* gestureHandlerCommon.ts */ = {isa = PBXFileReference; name = "gestureHandlerCommon.ts"; path = "../src/handlers/gestureHandlerCommon.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		109801CE95DF4861B2A2C8CA /* gestureHandlerTypesCompat.ts */ = {isa = PBXFileReference; name = "gestureHandlerTypesCompat.ts"; path = "../src/handlers/gestureHandlerTypesCompat.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2F4DCBFEE9C3450694E0535A /* eventReceiver.ts */ = {isa = PBXFileReference; name = "eventReceiver.ts"; path = "../src/handlers/gestures/eventReceiver.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A1B8CFBB3DD74F03A5ACF50F /* flingGesture.ts */ = {isa = PBXFileReference; name = "flingGesture.ts"; path = "../src/handlers/gestures/flingGesture.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		872CB321298A4B09A99A6073 /* forceTouchGesture.ts */ = {isa = PBXFileReference; name = "forceTouchGesture.ts"; path = "../src/handlers/gestures/forceTouchGesture.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5F69CBCA7D394848BAE9D7E4 /* gesture.ts */ = {isa = PBXFileReference; name = "gesture.ts"; path = "../src/handlers/gestures/gesture.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3F2EA073BF1F49A286CFCF65 /* gestureComposition.ts */ = {isa = PBXFileReference; name = "gestureComposition.ts"; path = "../src/handlers/gestures/gestureComposition.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A14A5C764FC645C1854C7604 /* GestureDetector.tsx */ = {isa = PBXFileReference; name = "GestureDetector.tsx"; path = "../src/handlers/gestures/GestureDetector.tsx"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5D4E57DF0C1B4ECCA7054A86 /* gestureObjects.ts */ = {isa = PBXFileReference; name = "gestureObjects.ts"; path = "../src/handlers/gestures/gestureObjects.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1A68CB70D5F1452AB9428B1A /* gestureStateManager.ts */ = {isa = PBXFileReference; name = "gestureStateManager.ts"; path = "../src/handlers/gestures/gestureStateManager.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3071D937A018464DA9F92A45 /* longPressGesture.ts */ = {isa = PBXFileReference; name = "longPressGesture.ts"; path = "../src/handlers/gestures/longPressGesture.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		169BE1F2D4564A2CB1E20DEC /* manualGesture.ts */ = {isa = PBXFileReference; name = "manualGesture.ts"; path = "../src/handlers/gestures/manualGesture.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		ACCC1FAA4D20457C90CC18BF /* nativeGesture.ts */ = {isa = PBXFileReference; name = "nativeGesture.ts"; path = "../src/handlers/gestures/nativeGesture.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5F8A98915A3F434A8AC719AA /* panGesture.ts */ = {isa = PBXFileReference; name = "panGesture.ts"; path = "../src/handlers/gestures/panGesture.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		01846A7079ED430582D077CF /* pinchGesture.ts */ = {isa = PBXFileReference; name = "pinchGesture.ts"; path = "../src/handlers/gestures/pinchGesture.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		83EC5D6E0EDC4F02B7EA257F /* reanimatedWrapper.ts */ = {isa = PBXFileReference; name = "reanimatedWrapper.ts"; path = "../src/handlers/gestures/reanimatedWrapper.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E4D57A2835B44480AF19CEBD /* rotationGesture.ts */ = {isa = PBXFileReference; name = "rotationGesture.ts"; path = "../src/handlers/gestures/rotationGesture.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D53A8E5DE09D40A38CCDD685 /* tapGesture.ts */ = {isa = PBXFileReference; name = "tapGesture.ts"; path = "../src/handlers/gestures/tapGesture.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D40030E32EA04C66BB711641 /* handlersRegistry.ts */ = {isa = PBXFileReference; name = "handlersRegistry.ts"; path = "../src/handlers/handlersRegistry.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		211305155EBF4166B359EC84 /* LongPressGestureHandler.ts */ = {isa = PBXFileReference; name = "LongPressGestureHandler.ts"; path = "../src/handlers/LongPressGestureHandler.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D26CD86D69784CE5BC941DE2 /* NativeViewGestureHandler.ts */ = {isa = PBXFileReference; name = "NativeViewGestureHandler.ts"; path = "../src/handlers/NativeViewGestureHandler.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2A7CD34FD044468C9E42A007 /* PanGestureHandler.ts */ = {isa = PBXFileReference; name = "PanGestureHandler.ts"; path = "../src/handlers/PanGestureHandler.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C8955E00A7474DC4A0364C19 /* PinchGestureHandler.ts */ = {isa = PBXFileReference; name = "PinchGestureHandler.ts"; path = "../src/handlers/PinchGestureHandler.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		86E50100E5FE4269AD1D10B5 /* PressabilityDebugView.tsx */ = {isa = PBXFileReference; name = "PressabilityDebugView.tsx"; path = "../src/handlers/PressabilityDebugView.tsx"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F221CC031B7046E98BACD5F2 /* PressabilityDebugView.web.tsx */ = {isa = PBXFileReference; name = "PressabilityDebugView.web.tsx"; path = "../src/handlers/PressabilityDebugView.web.tsx"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		550D36CB4E4045E393B5C511 /* RotationGestureHandler.ts */ = {isa = PBXFileReference; name = "RotationGestureHandler.ts"; path = "../src/handlers/RotationGestureHandler.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9D016C1EA07342F09B0E3748 /* TapGestureHandler.ts */ = {isa = PBXFileReference; name = "TapGestureHandler.ts"; path = "../src/handlers/TapGestureHandler.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D32C16BB20BB4E028F8BC59E /* index.ts */ = {isa = PBXFileReference; name = "index.ts"; path = "../src/index.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		96F8A88803764960A4E45558 /* init.ts */ = {isa = PBXFileReference; name = "init.ts"; path = "../src/init.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3E7DC45A8E2C41DAA023564D /* index.ts */ = {isa = PBXFileReference; name = "index.ts"; path = "../src/jestUtils/index.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		948F6F5E4F974C3295739B9E /* jestUtils.ts */ = {isa = PBXFileReference; name = "jestUtils.ts"; path = "../src/jestUtils/jestUtils.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		54539E161836429F90C80997 /* mocks.ts */ = {isa = PBXFileReference; name = "mocks.ts"; path = "../src/mocks.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E51CCC35473D40949940B414 /* PlatformConstants.ts */ = {isa = PBXFileReference; name = "PlatformConstants.ts"; path = "../src/PlatformConstants.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		79B59EB194824612BA8B8C96 /* PlatformConstants.web.ts */ = {isa = PBXFileReference; name = "PlatformConstants.web.ts"; path = "../src/PlatformConstants.web.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		64EF8B388967434394796021 /* RNGestureHandlerModule.macos.ts */ = {isa = PBXFileReference; name = "RNGestureHandlerModule.macos.ts"; path = "../src/RNGestureHandlerModule.macos.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7CEFF335682A4BF691B649EB /* RNGestureHandlerModule.ts */ = {isa = PBXFileReference; name = "RNGestureHandlerModule.ts"; path = "../src/RNGestureHandlerModule.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EE3642E01DD04A05BB084F5A /* RNGestureHandlerModule.web.ts */ = {isa = PBXFileReference; name = "RNGestureHandlerModule.web.ts"; path = "../src/RNGestureHandlerModule.web.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0F2F512244A84D1899976F25 /* State.ts */ = {isa = PBXFileReference; name = "State.ts"; path = "../src/State.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2AAEC5AA27C94987B1CC6949 /* TouchEventType.ts */ = {isa = PBXFileReference; name = "TouchEventType.ts"; path = "../src/TouchEventType.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		017E3272B47A4FFCBF7D23CB /* typeUtils.ts */ = {isa = PBXFileReference; name = "typeUtils.ts"; path = "../src/typeUtils.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0A9425ABD63448D6BB5C899B /* utils.ts */ = {isa = PBXFileReference; name = "utils.ts"; path = "../src/utils.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7E523A83B9B64B3AB188EEAD /* constants.ts */ = {isa = PBXFileReference; name = "constants.ts"; path = "../src/web/constants.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		ECB95339D041407AA1195151 /* DiscreteGestureHandler.ts */ = {isa = PBXFileReference; name = "DiscreteGestureHandler.ts"; path = "../src/web/DiscreteGestureHandler.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C919AFE8C0FF4D7FA41A1AA4 /* DraggingGestureHandler.ts */ = {isa = PBXFileReference; name = "DraggingGestureHandler.ts"; path = "../src/web/DraggingGestureHandler.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4B7CBA840A2241D0AD8F4A03 /* Errors.ts */ = {isa = PBXFileReference; name = "Errors.ts"; path = "../src/web/Errors.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A9FDA3D3206A4E559C9C03D5 /* FlingGestureHandler.ts */ = {isa = PBXFileReference; name = "FlingGestureHandler.ts"; path = "../src/web/FlingGestureHandler.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		90B34A3E0E6A42CE8FD39A50 /* GestureHandler.ts */ = {isa = PBXFileReference; name = "GestureHandler.ts"; path = "../src/web/GestureHandler.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		37338ADC2DEB45C28806CB2D /* IndiscreteGestureHandler.ts */ = {isa = PBXFileReference; name = "IndiscreteGestureHandler.ts"; path = "../src/web/IndiscreteGestureHandler.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2C37A0F2701947838C3386D7 /* LongPressGestureHandler.ts */ = {isa = PBXFileReference; name = "LongPressGestureHandler.ts"; path = "../src/web/LongPressGestureHandler.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		903C0693E77F4FF29EEA52AE /* NativeViewGestureHandler.ts */ = {isa = PBXFileReference; name = "NativeViewGestureHandler.ts"; path = "../src/web/NativeViewGestureHandler.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D747F9EC06814C158CCF3CA8 /* NodeManager.ts */ = {isa = PBXFileReference; name = "NodeManager.ts"; path = "../src/web/NodeManager.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		24D89340B34740ACB762F48B /* PanGestureHandler.ts */ = {isa = PBXFileReference; name = "PanGestureHandler.ts"; path = "../src/web/PanGestureHandler.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		447EB132E3B04D4F84A145EB /* PinchGestureHandler.ts */ = {isa = PBXFileReference; name = "PinchGestureHandler.ts"; path = "../src/web/PinchGestureHandler.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D9F92726FFBF42E4B5F16F17 /* PressGestureHandler.ts */ = {isa = PBXFileReference; name = "PressGestureHandler.ts"; path = "../src/web/PressGestureHandler.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		15F38E95C73640D2A66B7EC8 /* RotationGestureHandler.ts */ = {isa = PBXFileReference; name = "RotationGestureHandler.ts"; path = "../src/web/RotationGestureHandler.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5376B7668CDE482889A8EA88 /* TapGestureHandler.ts */ = {isa = PBXFileReference; name = "TapGestureHandler.ts"; path = "../src/web/TapGestureHandler.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FE60C833A0564C67AC5C16B0 /* utils.ts */ = {isa = PBXFileReference; name = "utils.ts"; path = "../src/web/utils.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7699B88040F8A987B510C191 /* libPods-blogApp-blogAppTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80B921A6F3F58F76C31292 /* libPods-blogApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* blogAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* blogAppTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = blogAppTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* blogApp */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = blogApp;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-blogApp.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-blogApp-blogAppTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* blogApp */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* blogAppTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				F39427C51C3A48BFBC1FFF26 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* blogApp.app */,
+				00E356EE1AD99517003FC87E /* blogAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-blogApp.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-blogApp.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-blogApp-blogAppTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-blogApp-blogAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F39427C51C3A48BFBC1FFF26 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				D5FFFB1A08544DEA8C381F88 /* ActionType.ts */,
+				D6EDA63B084A4A4995412830 /* DrawerLayout.tsx */,
+				77ACB8C5A47A4F0C9D422C22 /* GestureButtons.tsx */,
+				1D7B339A32CF44D893CEEEDA /* GestureComponents.tsx */,
+				C21032845CFA43BBBE017605 /* GestureComponents.web.tsx */,
+				E572B5DB193B4D4D98241ECC /* GestureHandlerButton.tsx */,
+				1730135260804795937DFC08 /* GestureHandlerButton.web.tsx */,
+				95C47AFE954E4A0AB7703A64 /* Swipeable.tsx */,
+				1C42792D1CD84415BA59D9CC /* GenericTouchable.tsx */,
+				AA8806B74FE340FAA4D04A55 /* index.ts */,
+				DEB7EDCB9C824BBDBC906304 /* TouchableHighlight.tsx */,
+				966F96A3B03E4A4C8B6FCF72 /* TouchableNativeFeedback.android.tsx */,
+				46A6EF12208249FC960A141C /* TouchableNativeFeedback.tsx */,
+				EAF30CEE19074AEA91EE070D /* TouchableOpacity.tsx */,
+				02B276B52D94485C882A6C55 /* TouchableWithoutFeedback.tsx */,
+				7A51693436974756AC23C510 /* Directions.ts */,
+				C90912DA0592414BA6D49BC9 /* RNGestureHandlerButtonNativeComponent.ts */,
+				C5DEF3FAD9584C3C97B18646 /* RNGestureHandlerRootViewNativeComponent.ts */,
+				D5504EBCEA0942BFAA818CED /* gestureHandlerRootHOC.tsx */,
+				C68931B1EE664156B225A951 /* GestureHandlerRootView.android.tsx */,
+				6253F3C72DE241A1A5198125 /* GestureHandlerRootView.tsx */,
+				A3339C75D24E4B95BBFD911A /* GestureHandlerRootView.web.tsx */,
+				B8528A286BE54C97812E1D64 /* getShadowNodeFromRef.ts */,
+				7A96B9810B6545668D6C7FA7 /* getShadowNodeFromRef.web.ts */,
+				3EF5B4819430412590465AB6 /* createHandler.tsx */,
+				13076D9DCE8147C1AE6C1C06 /* createNativeWrapper.tsx */,
+				DAC270410CF4478198FC0E92 /* FlingGestureHandler.ts */,
+				962DA19ADA3C4EA6A276A419 /* ForceTouchGestureHandler.ts */,
+				0ED861758B774304BC0786B6 /* gestureHandlerCommon.ts */,
+				109801CE95DF4861B2A2C8CA /* gestureHandlerTypesCompat.ts */,
+				2F4DCBFEE9C3450694E0535A /* eventReceiver.ts */,
+				A1B8CFBB3DD74F03A5ACF50F /* flingGesture.ts */,
+				872CB321298A4B09A99A6073 /* forceTouchGesture.ts */,
+				5F69CBCA7D394848BAE9D7E4 /* gesture.ts */,
+				3F2EA073BF1F49A286CFCF65 /* gestureComposition.ts */,
+				A14A5C764FC645C1854C7604 /* GestureDetector.tsx */,
+				5D4E57DF0C1B4ECCA7054A86 /* gestureObjects.ts */,
+				1A68CB70D5F1452AB9428B1A /* gestureStateManager.ts */,
+				3071D937A018464DA9F92A45 /* longPressGesture.ts */,
+				169BE1F2D4564A2CB1E20DEC /* manualGesture.ts */,
+				ACCC1FAA4D20457C90CC18BF /* nativeGesture.ts */,
+				5F8A98915A3F434A8AC719AA /* panGesture.ts */,
+				01846A7079ED430582D077CF /* pinchGesture.ts */,
+				83EC5D6E0EDC4F02B7EA257F /* reanimatedWrapper.ts */,
+				E4D57A2835B44480AF19CEBD /* rotationGesture.ts */,
+				D53A8E5DE09D40A38CCDD685 /* tapGesture.ts */,
+				D40030E32EA04C66BB711641 /* handlersRegistry.ts */,
+				211305155EBF4166B359EC84 /* LongPressGestureHandler.ts */,
+				D26CD86D69784CE5BC941DE2 /* NativeViewGestureHandler.ts */,
+				2A7CD34FD044468C9E42A007 /* PanGestureHandler.ts */,
+				C8955E00A7474DC4A0364C19 /* PinchGestureHandler.ts */,
+				86E50100E5FE4269AD1D10B5 /* PressabilityDebugView.tsx */,
+				F221CC031B7046E98BACD5F2 /* PressabilityDebugView.web.tsx */,
+				550D36CB4E4045E393B5C511 /* RotationGestureHandler.ts */,
+				9D016C1EA07342F09B0E3748 /* TapGestureHandler.ts */,
+				D32C16BB20BB4E028F8BC59E /* index.ts */,
+				96F8A88803764960A4E45558 /* init.ts */,
+				3E7DC45A8E2C41DAA023564D /* index.ts */,
+				948F6F5E4F974C3295739B9E /* jestUtils.ts */,
+				54539E161836429F90C80997 /* mocks.ts */,
+				E51CCC35473D40949940B414 /* PlatformConstants.ts */,
+				79B59EB194824612BA8B8C96 /* PlatformConstants.web.ts */,
+				64EF8B388967434394796021 /* RNGestureHandlerModule.macos.ts */,
+				7CEFF335682A4BF691B649EB /* RNGestureHandlerModule.ts */,
+				EE3642E01DD04A05BB084F5A /* RNGestureHandlerModule.web.ts */,
+				0F2F512244A84D1899976F25 /* State.ts */,
+				2AAEC5AA27C94987B1CC6949 /* TouchEventType.ts */,
+				017E3272B47A4FFCBF7D23CB /* typeUtils.ts */,
+				0A9425ABD63448D6BB5C899B /* utils.ts */,
+				7E523A83B9B64B3AB188EEAD /* constants.ts */,
+				ECB95339D041407AA1195151 /* DiscreteGestureHandler.ts */,
+				C919AFE8C0FF4D7FA41A1AA4 /* DraggingGestureHandler.ts */,
+				4B7CBA840A2241D0AD8F4A03 /* Errors.ts */,
+				A9FDA3D3206A4E559C9C03D5 /* FlingGestureHandler.ts */,
+				90B34A3E0E6A42CE8FD39A50 /* GestureHandler.ts */,
+				37338ADC2DEB45C28806CB2D /* IndiscreteGestureHandler.ts */,
+				2C37A0F2701947838C3386D7 /* LongPressGestureHandler.ts */,
+				903C0693E77F4FF29EEA52AE /* NativeViewGestureHandler.ts */,
+				D747F9EC06814C158CCF3CA8 /* NodeManager.ts */,
+				24D89340B34740ACB762F48B /* PanGestureHandler.ts */,
+				447EB132E3B04D4F84A145EB /* PinchGestureHandler.ts */,
+				D9F92726FFBF42E4B5F16F17 /* PressGestureHandler.ts */,
+				15F38E95C73640D2A66B7EC8 /* RotationGestureHandler.ts */,
+				5376B7668CDE482889A8EA88 /* TapGestureHandler.ts */,
+				FE60C833A0564C67AC5C16B0 /* utils.ts */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* blogAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "blogAppTests" */;
+			buildPhases = (
+				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
+				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = blogAppTests;
+			productName = blogAppTests;
+			productReference = 00E356EE1AD99517003FC87E /* blogAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* blogApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "blogApp" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = blogApp;
+			productName = blogApp;
+			productReference = 13B07F961A680F5B00A75B9A /* blogApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "blogApp" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* blogApp */,
+				00E356ED1AD99517003FC87E /* blogAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				9054BE240E184E66BE4F280F /* ActionType.ts in Resources */,
+				E2C74F5A2255497DBCBB02F0 /* DrawerLayout.tsx in Resources */,
+				49B40C11318C41BCB5A0E0DC /* GestureButtons.tsx in Resources */,
+				DF767CBE52BF440AB9EDEB5D /* GestureComponents.tsx in Resources */,
+				AFEF91A46D014C78AC291191 /* GestureComponents.web.tsx in Resources */,
+				424BBAB8C97F4A9DBFE64B3E /* GestureHandlerButton.tsx in Resources */,
+				BA72AEAAB4834E758AC10634 /* GestureHandlerButton.web.tsx in Resources */,
+				4D019CDA95AC45FDAF46AC5C /* Swipeable.tsx in Resources */,
+				22E11B9188AF4CE3B42D262D /* GenericTouchable.tsx in Resources */,
+				1A76DDD7BB8145D9B87189DD /* index.ts in Resources */,
+				2B5096A3E0FB40C2AF047747 /* TouchableHighlight.tsx in Resources */,
+				D58321F13D1443619C961ECF /* TouchableNativeFeedback.android.tsx in Resources */,
+				47B9AAB9713F4CE2ACB3B448 /* TouchableNativeFeedback.tsx in Resources */,
+				1E6D694447344D5C942EF36D /* TouchableOpacity.tsx in Resources */,
+				C2706CD52E7A48ACB4FCB7D0 /* TouchableWithoutFeedback.tsx in Resources */,
+				23CDA508C6914645B7CFA8CB /* Directions.ts in Resources */,
+				52F6010F41A44AF88134381A /* RNGestureHandlerButtonNativeComponent.ts in Resources */,
+				5F6F1E52FFDE4FA08E140373 /* RNGestureHandlerRootViewNativeComponent.ts in Resources */,
+				A8392D6F65E348699F389034 /* gestureHandlerRootHOC.tsx in Resources */,
+				43EAADAAE5584303BBFADC7A /* GestureHandlerRootView.android.tsx in Resources */,
+				B0432959767647119DF89E1E /* GestureHandlerRootView.tsx in Resources */,
+				9F210B9C79334D94A734E63E /* GestureHandlerRootView.web.tsx in Resources */,
+				FA3ED14D530A4447BCA5CF90 /* getShadowNodeFromRef.ts in Resources */,
+				FA2CEE9BB02447F8BB85AF7C /* getShadowNodeFromRef.web.ts in Resources */,
+				D2D7EB796E0D4856ACA0B373 /* createHandler.tsx in Resources */,
+				953C8D719831426A894E5313 /* createNativeWrapper.tsx in Resources */,
+				22897F5F3CDC4CED951F74D0 /* FlingGestureHandler.ts in Resources */,
+				0471473BBE0C4746A6DE8A97 /* ForceTouchGestureHandler.ts in Resources */,
+				27CA5892EA184005967644A9 /* gestureHandlerCommon.ts in Resources */,
+				2D56D6490DDD482BB62024B2 /* gestureHandlerTypesCompat.ts in Resources */,
+				32E91D71A26E46BD95A7E1B6 /* eventReceiver.ts in Resources */,
+				A75D606758F74FA0A89C6620 /* flingGesture.ts in Resources */,
+				496411DB67884BDC852D41D2 /* forceTouchGesture.ts in Resources */,
+				E5F3215EF1F64209B4774B7D /* gesture.ts in Resources */,
+				7F65C71BEB7048A69F91785F /* gestureComposition.ts in Resources */,
+				45639E52F4064B32A5CAEB0C /* GestureDetector.tsx in Resources */,
+				9245A7FA1C8044E8B55743CD /* gestureObjects.ts in Resources */,
+				5C7DA5D29F3F4C88AA9930C2 /* gestureStateManager.ts in Resources */,
+				E6B0F77FFADA49B9A206B232 /* longPressGesture.ts in Resources */,
+				BA0E10A447A34B4BAF59F2F1 /* manualGesture.ts in Resources */,
+				859E1A94864047129FE703B8 /* nativeGesture.ts in Resources */,
+				A4DF1C262D1249F3915E8900 /* panGesture.ts in Resources */,
+				7B45FC414C74463F9DE5A5C3 /* pinchGesture.ts in Resources */,
+				6AE0F54C6A994AEEA0A20A39 /* reanimatedWrapper.ts in Resources */,
+				9187E1A49DE649E09A5C3A51 /* rotationGesture.ts in Resources */,
+				826AE74D984C4533B422D039 /* tapGesture.ts in Resources */,
+				E8F9ED269502424EA6BD1C65 /* handlersRegistry.ts in Resources */,
+				1ED521A0AADD442084963CFB /* LongPressGestureHandler.ts in Resources */,
+				DF5A90312E62442DB88F461C /* NativeViewGestureHandler.ts in Resources */,
+				F2439B2D7AF74E5EAC574DDB /* PanGestureHandler.ts in Resources */,
+				C0025874CD514B219786E4C9 /* PinchGestureHandler.ts in Resources */,
+				59AF175B7E2740239614E3F7 /* PressabilityDebugView.tsx in Resources */,
+				C8FAA1DDCA804335B688F962 /* PressabilityDebugView.web.tsx in Resources */,
+				2B63910FAB874B95ACEEBFF8 /* RotationGestureHandler.ts in Resources */,
+				BBFEBF677ABC40C487798F78 /* TapGestureHandler.ts in Resources */,
+				74D4C7C6ED424ECCBDC7B25C /* index.ts in Resources */,
+				BE4423A5659B424EB4004616 /* init.ts in Resources */,
+				60A6A115C6AC46BD91AB0C18 /* index.ts in Resources */,
+				B4F618401F7C431487A99913 /* jestUtils.ts in Resources */,
+				D8BFE8F0F4A9440AA8FBAF15 /* mocks.ts in Resources */,
+				DFDC98CB69554BDB8AA48B3D /* PlatformConstants.ts in Resources */,
+				A7D802C7C8C74BDC87A065D8 /* PlatformConstants.web.ts in Resources */,
+				6B356E95A00D4FCEAB02CB5A /* RNGestureHandlerModule.macos.ts in Resources */,
+				CD03D05E56A2432D8723477E /* RNGestureHandlerModule.ts in Resources */,
+				3524B05FD07A4F548F65269F /* RNGestureHandlerModule.web.ts in Resources */,
+				C6D8D2B276114F939B1050B7 /* State.ts in Resources */,
+				273BBEB31F46423D927606B4 /* TouchEventType.ts in Resources */,
+				D9F7C9E127454BFA912D1A3F /* typeUtils.ts in Resources */,
+				81959899932C42A9A328EB6C /* utils.ts in Resources */,
+				27AC26D4284F4339821BFC5A /* constants.ts in Resources */,
+				341F69D07F644EEEAC118332 /* DiscreteGestureHandler.ts in Resources */,
+				A6D082CC6B7942F5809D5F25 /* DraggingGestureHandler.ts in Resources */,
+				F47CDF38B64640F4906F4B03 /* Errors.ts in Resources */,
+				6B5FF1E8239540E892227CA5 /* FlingGestureHandler.ts in Resources */,
+				C9853316A66C4D1FBE291EE3 /* GestureHandler.ts in Resources */,
+				7E4F83B2B2A04C08B11B8EA2 /* IndiscreteGestureHandler.ts in Resources */,
+				ADB158BE66AE49B290078B27 /* LongPressGestureHandler.ts in Resources */,
+				46EC5932D56441148B84EC97 /* NativeViewGestureHandler.ts in Resources */,
+				75BA12EA614D4A19B93877C0 /* NodeManager.ts in Resources */,
+				D7C38180726E4C07B6D76DC3 /* PanGestureHandler.ts in Resources */,
+				2544EF13E0B248A587A1E439 /* PinchGestureHandler.ts in Resources */,
+				B72C948496ED4C3E87320508 /* PressGestureHandler.ts in Resources */,
+				B51E9D68E9DC47E69258CDC5 /* RotationGestureHandler.ts in Resources */,
+				C46B8AD94E684E6B95D9ECA9 /* TapGestureHandler.ts in Resources */,
+				8EF7FFC86DE340359A577410 /* utils.ts in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-blogApp/Pods-blogApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-blogApp/Pods-blogApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-blogApp/Pods-blogApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-blogApp-blogAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-blogApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-blogApp-blogAppTests/Pods-blogApp-blogAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-blogApp-blogAppTests/Pods-blogApp-blogAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-blogApp-blogAppTests/Pods-blogApp-blogAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-blogApp/Pods-blogApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-blogApp/Pods-blogApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-blogApp/Pods-blogApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-blogApp-blogAppTests/Pods-blogApp-blogAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-blogApp-blogAppTests/Pods-blogApp-blogAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-blogApp-blogAppTests/Pods-blogApp-blogAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* blogAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* blogApp */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-blogApp-blogAppTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = blogAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/blogApp.app/blogApp";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-blogApp-blogAppTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = blogAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/blogApp.app/blogApp";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-blogApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = blogApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = blogApp;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-blogApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = blogApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = blogApp;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "blogAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "blogApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "blogApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
